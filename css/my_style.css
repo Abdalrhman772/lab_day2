@@ -1,0 +1,147 @@
+/* nav bar */
+
+.ulMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 40, 40);
+  overflow: hidden;
+}
+
+.ulMenu li {
+  float: left;
+}
+.ulMenu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+.ulMenu li a:hover {
+  background-color: brown;
+}
+
+.iti-logo {
+  padding: 3px 4px 0 0;
+}
+
+.active {
+  background-color: brown;
+}
+
+/* registration screen */
+
+.registration-section {
+  width: 48%;
+  margin: 6px auto;
+  background-color: rgb(245, 250, 249);
+  border: solid 4px rgb(224, 240, 232);
+}
+
+h1 {
+  margin-left: 10px;
+  color: rgb(107, 159, 130);
+}
+
+.dashed-div {
+  background-color: rgb(224, 240, 232);
+  padding: 4px;
+  margin: 20px 10px;
+  border: dashed 2px rgb(107, 159, 130);
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 4px;
+  margin: 4px 0;
+  border: solid 2px rgb(197, 224, 211);
+}
+input[type="email"] {
+  width: 80%;
+  padding: 4px;
+  margin: 4px 0;
+  border: solid 2px rgb(197, 224, 211);
+}
+input[type="password"] {
+  width: 50%;
+  padding: 4px;
+  margin: 4px 0;
+  border: solid 2px rgb(197, 224, 211);
+}
+
+input[type="tel"] {
+  width: 60%;
+  padding: 4px;
+  margin: 4px 0;
+  border: solid 2px rgb(197, 224, 211);
+}
+
+textarea {
+  width: 65%;
+  border: solid 2px rgb(197, 224, 211);
+}
+
+select {
+  width: 62%;
+  padding: 4px;
+  border: solid 2px rgb(197, 224, 211);
+  text-align: center;
+}
+
+.custom-star {
+  color: red;
+  font-weight: bold;
+}
+
+table {
+  align-items: center;
+}
+
+.right-column {
+  background-color: rgb(245, 250, 249);
+}
+
+.left-column {
+  text-align: right;
+  background-color: rgb(224, 240, 232);
+  color: rgb(97, 145, 118);
+  padding: 6px;
+  width: 30%;
+}
+
+/* Road map screen */
+
+.roadmap-section {
+  margin: 0 8px;
+}
+
+p .custom-text {
+  color: rgb(209, 10, 10);
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.left-div {
+  width: 50%;
+  float: left;
+}
+
+.right-div {
+  margin-left: 50%;
+}
+
+/* layout */
+
+body {
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px;
+}

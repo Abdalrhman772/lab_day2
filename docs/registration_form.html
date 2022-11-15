@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Road Map</title>
+    <link rel="stylesheet" href="../css/my_style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="ulMenu">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li><a href="./road_map.html"> Road Map</a></li>
+            <li><a class="active" href="">Registration Form</a></li>
+            <li><a href="https://www.iti.gov.eg/iti/home">Contact</a></li>
+            <li class="iti-logo" style="float: right;"><img src="../imgs/ITI_logo2.png" alt="ITI_logo" width="100px">
+            </li>
+        </ul>
+    </header>
+
+    <section class="registration-section">
+
+        <h1>Register - Create Account</h1>
+        <div class="dashed-div">
+            Field marked with <span class="custom-star">*</span> are compulsory fields
+        </div>
+
+
+        <form action="" method="post">
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <td class="left-column">
+                            <span> <span class="custom-star">*</span>Your Name </span>
+                        </td>
+                        <td class="right-column"><input type="text" name="name" required autofocus></td>
+                    </tr>
+
+                    <tr>
+                        <td class="left-column">
+                            <span class="custom-star">*</span>E-Mail ID
+                        </td>
+                        <td class="right-column"><input type="email" name="email" required></td>
+                    </tr>
+
+                    <tr>
+                        <td class="left-column">
+                            Alternate E-Mail ID
+                        </td>
+                        <td class="right-column"><input type="email" name="alternate-email"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="left-column">
+                            Your Phone
+                        </td>
+
+                        <td class="right-column">
+                            <small style="color: rgb(97, 145, 118);">
+                                Country Code - City Code - Phone Number
+                            </small>
+                            </small>
+                            <div>
+                                <input type="tel" name="country-code" style="width: 12%;"> -
+                                <input type="tel" name="city-code" style="width: 8%;"> -
+                                <input type="tel" name="phone-number" style="width: 35%;">
+
+                            </div>
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td class="left-column">
+                            Mobile Phone
+                        </td>
+                        <td class="right-column"><input type="tel" name="mobile-phone"></td>
+                    </tr>
+
+                    <tr>
+
+                        <td class="left-column">
+                            <span class="custom-star">*</span>Your Postal Address
+                        </td>
+                        <td class="right-column"><textarea name="postal-address" cols="35" rows="5" required></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="left-column">
+                            <span class="custom-star">*</span>Country
+                        </td>
+
+                        <td class="right-column">
+                            <select name="country" required>
+                                <option disabled selected> ------ Select one ------</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Palestine">Palestine</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="left-column">
+                            <span class="custom-star">*</span>Password
+                        </td>
+                        <td class="right-column"><input type="password" name="password" minlength="6" required></td>
+                    </tr>
+
+                    <tr>
+                        <td class="left-column">
+                            <span class="custom-star">*</span>Re - Enter Password
+                        </td>
+                        <td class="right-column"><input type="password" name="confirm-password" required></td>
+                    </tr>
+
+                </tbody>
+                <tfoot align="center">
+                    <tr>
+                        <td class="right-column" colspan="2">
+                            <input type="checkbox" id="ag" name="check-agree" required>
+                            <label for="ag" style="font-weight: bold; color: rgb(97, 145, 118);">
+                                I accept the <span style="color: blue; text-decoration: underline;">Terms
+                                    of Use</span>
+                            </label>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="right-column" colspan="2">
+                            <input type="submit" value="Continue >>">
+                            &nbsp; &nbsp;
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </section>
+
+
+    <footer>
+        <hr>
+        <strong class="c1" style="color: rgb(44, 44, 126)">
+            Copyright 2022 by Noha Salah &reg;. All Rights Reserved.
+        </strong>
+    </footer>
+</body>
+
+</html>
